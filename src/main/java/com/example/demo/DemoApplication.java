@@ -8,7 +8,6 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		System.out.println("Hello from branch 2 concadering branch 1 ");
-		System.out.println("bad commit");
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
