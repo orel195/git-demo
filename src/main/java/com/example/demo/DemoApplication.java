@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class DemoApplication {
+
 	public static void main(String[] args) {
-		System.out.println("hello from branch 1");
-	}
+		System.out.println("Hello from branch 2 concadering branch 1 ");
 		SpringApplication.run(DemoApplication.class, args);
-		{
-		}
 	}
+
+}
